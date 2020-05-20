@@ -1,6 +1,6 @@
 # Visualizing-titanic-data-using-ggplot-R
 This reporistory contains the visualizations of the famous Titanic problem dataset. Titanic dataset is also a good proxy for common business data for example, customer profile data. Simple lines of code in R and awareness of basic function and data visiualizations (eg. histogram, barchart etc.) can help to improve the understanding of data. This is the part of problem which is just 20 percent but useful over 80 percent of the time. 
-> Alongside the visulaizations.R contains the code of implementation and the dataset titanic.csv can be downloaded from kaggle [here](https://www.kaggle.com/c/titanic/data). Hope these visualizations excite you about ggplot package in R.
+> Alongside the ```visulaizations.R``` contains the code of implementation and the dataset ```titanic.csv``` can be downloaded from kaggle [here](https://www.kaggle.com/c/titanic/data). Hope these visualizations excite you about ggplot package in R.
 
 The goal of the analysis is to explain the pattern of survival in the data
 
@@ -43,6 +43,9 @@ Each ggplot2  visualization has three required components:
 * <b>Layers</b>: What you see on the plots (e.g., points, lines, etc.). These layers typically tke the form of a ggplot2 geom fucntion - for example, a simple scatter plot.
 
 ## Visualizations
+
+Here are the cool visulazations created in R with simple lines of code. The image itself is self explanatory
+
 ### Survival Rate
 
 As already mentioned 1 signifies the survival, and 0 signifies the perish.
@@ -52,6 +55,81 @@ As already mentioned 1 signifies the survival, and 0 signifies the perish.
 <br>
 
 It shows that 61.6 percent people perished on titanic and 38.4 people survived. 
+
+### Survival Rate by Sex
+
+<br>
+<img src ="visualizations/Survival Rate by Sex.png">
+<br>
+
+It concludes that most male did not survive on titanic.
+
+### Survival Rate by Ticket Class
+
+<br>
+<img src ="visualizations/Survival Rate by Pclass.png.png">
+<br>
+
+The hypothesis that class affected the survival is shown.
+
+### Survival Rate by Ticket Class and Sex
+
+<br>
+<img src ="visualizations/Survival Rate by Pclass and sex.png">
+<br>
+
+After doing visual drill down on pclass and sex as they both affect the survival.
+
+### Survival Rate by Age
+
+ggplot2 automatically removed 177 rows as the data was missing.
+
+<br>
+<img src ="visualizations/Titanic Age Distribution.png">
+<br>
+
+Age distribution
+
+<br>
+<img src ="visualizations/Titanic Survival Rates by Age.png">
+<br>
+
+Age distribution with survival
+
+<br>
+<img src ="visualizations/Titanic Survival Rates by Age box_plot.png.png">
+<br>
+
+Box plot og survival rate by age. It tells that younger people survived more.
+
+### Survival Rate by Age, Ticket Class and Sex
+
+This is the 4 dimensional view.
+
+<br>
+<img src ="visualizations/Titanic Survival Rates by Age, Pclass and Sex histogram.png">
+<br>
+
+Histogram plot of the mentioned dimensions.
+
+<br>
+<img src ="visualizations/Titanic Survival Rates by Age, Pclass and Sex.png">
+<br>
+
+This is the density plot of required dimensions which shows that Age, Ticket Class and Sex matters for survival. 
+
+# About Me
+
+You can check my other projects on:
+* [Github](https://github.com/riturajkush)
+* [LinkedIn](https://www.linkedin.com/in/rajkush/)
+
+
+
+
+
+
+
 
 
 
