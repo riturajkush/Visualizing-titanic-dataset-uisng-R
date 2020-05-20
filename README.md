@@ -67,7 +67,7 @@ It concludes that most male did not survive on titanic.
 ### Survival Rate by Ticket Class
 
 <br>
-<img src ="visualizations/Survival Rate by Pclass.png.png">
+<img src ="visualizations/Survival Rate by Pclass.png">
 <br>
 
 The hypothesis that class affected the survival is shown.
