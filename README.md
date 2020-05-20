@@ -97,7 +97,7 @@ Age distribution
 Age distribution with survival
 
 <br>
-<img src ="visualizations/Titanic Survival Rates by Age box_plot.png.png">
+<img src ="visualizations/Titanic Survival Rates by Age box_plot.png">
 <br>
 
 Box plot og survival rate by age. It tells that younger people survived more.
