@@ -48,7 +48,7 @@ Each ggplot2  visualization has three required components:
 As already mentioned 1 signifies the survival, and 0 signifies the perish.
 
 <br>
-<img src ="visualizations/Survival Rate_png.png" width="80%">
+<img src ="visualizations/Survival Rate_png.png">
 <br>
 
 It shows that 61.6 percent people perished on titanic and 38.4 people survived. 
